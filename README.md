@@ -29,3 +29,7 @@ Fixed bug which prevented extension from launching
 ## 1.0.5
 
 Minor fixes
+
+## 1.0.6
+
+Allowed it to work on devices other than Windows

@@ -2,7 +2,7 @@
   "name": "wpilib-build-deploy-command",
   "displayName": "WPILib Build+Deploy Command",
   "description": "A command which builds and deploys in WPILib for VSCode",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "wpilibcustomutils",
   "engines": {
     "vscode": "^1.63.0"
