@@ -33,3 +33,8 @@ Minor fixes
 ## 1.0.6
 
 Allowed it to work on devices other than Windows
+
+## 1.0.7
+
+Fixed bug for deploying
+

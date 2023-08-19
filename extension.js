@@ -39,7 +39,7 @@ function activate(context) {
 			if (shouldContinue) {
 				vscode.window.showInformationMessage("WPILib Build+Deploy: Deploying...")
 				channel.appendLine("||   DEPLOYING   ||")
-				exec('cd ' + vscode.workspace.workspaceFolders[0].uri.fsPath + '&&' + gradlew + 'deploy', (err, stdout, stderr) => {
+				exec('cd ' + vscode.workspace.workspaceFolders[0].uri.fsPath + '&&' + gradlew + ' deploy', (err, stdout, stderr) => {
 					if (err) {
 						vscode.window.showErrorMessage("WPILib Build+Deploy: Error while deploying. Check output for detailed logs")
 						channel.appendLine("||   ERROR   ||")
